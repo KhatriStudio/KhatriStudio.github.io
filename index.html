@@ -33,6 +33,22 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <script>
+        function fetchBloggerPosts(query = '') {
+            const script = document.createElement('script');
+            script.src = `https://www.blogger.com/feeds/8783317762791695074/posts/default?alt=json-in-script&max-results=10&start-index=1&q=${query}&callback=myFunction`;
+            document.body.appendChild(script);
+        }
+
+        function myFunction(feed) {
+            const data = feed.feed.entry ? feed.feed.entry : [];
+            window.postMessage({ type: 'blogger_data', data: data }, "*");
+        }
+    </script>
+
+    <script>
+        fetchBloggerPosts(); // Initial Fetch
+    </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
