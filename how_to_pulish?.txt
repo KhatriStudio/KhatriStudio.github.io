@@ -1,0 +1,72 @@
+PS D:\Flutter Projects\first_app_github> flutter build web
+
+Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 7760 bytes (99.5% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+Font asset "CupertinoIcons.ttf" was tree-shaken, reducing it from 257628 to 1172 bytes (99.5% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+Compiling lib\main.dart for the Web...                             37.9s
+√ Built build\web
+PS D:\Flutter Projects\first_app_github> cd build
+PS D:\Flutter Projects\first_app_github\build> cd web
+PS D:\Flutter Projects\first_app_github\build\web> git init
+Initialized empty Git repository in D:/Flutter Projects/first_app_github/build/web/.git/
+PS D:\Flutter Projects\first_app_github\build\web> git add .
+warning: in the working copy of 'assets/NOTICES', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/shaders/ink_sparkle.frag', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'canvaskit/canvaskit.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'canvaskit/canvaskit.js.symbols', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'canvaskit/chromium/canvaskit.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'canvaskit/chromium/canvaskit.js.symbols', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'canvaskit/skwasm.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'canvaskit/skwasm.js.symbols', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'canvaskit/skwasm.worker.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'flutter.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'flutter_bootstrap.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'flutter_service_worker.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main.dart.js', LF will be replaced by CRLF the next time Git touches it
+PS D:\Flutter Projects\first_app_github\build\web> git commit -m "first commit"
+[master (root-commit) 7c64ec3] first commit
+ 31 files changed, 126074 insertions(+)
+ create mode 100644 .last_build_id
+ create mode 100644 assets/AssetManifest.bin
+ create mode 100644 assets/AssetManifest.bin.json
+ create mode 100644 assets/AssetManifest.json
+ create mode 100644 assets/FontManifest.json
+ create mode 100644 assets/NOTICES
+ create mode 100644 assets/fonts/MaterialIcons-Regular.otf
+ create mode 100644 assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+ create mode 100644 assets/shaders/ink_sparkle.frag
+ create mode 100644 canvaskit/canvaskit.js
+ create mode 100644 canvaskit/canvaskit.js.symbols
+ create mode 100644 canvaskit/canvaskit.wasm
+ create mode 100644 canvaskit/chromium/canvaskit.js
+ create mode 100644 canvaskit/chromium/canvaskit.js.symbols
+ create mode 100644 canvaskit/chromium/canvaskit.wasm
+ create mode 100644 canvaskit/skwasm.js
+ create mode 100644 canvaskit/skwasm.js.symbols
+ create mode 100644 canvaskit/skwasm.wasm
+ create mode 100644 canvaskit/skwasm.worker.js
+ create mode 100644 favicon.png
+ create mode 100644 flutter.js
+ create mode 100644 flutter_bootstrap.js
+ create mode 100644 flutter_service_worker.js
+ create mode 100644 icons/Icon-192.png
+ create mode 100644 icons/Icon-512.png
+ create mode 100644 icons/Icon-maskable-192.png
+ create mode 100644 icons/Icon-maskable-512.png
+ create mode 100644 index.html
+ create mode 100644 main.dart.js
+ create mode 100644 manifest.json
+ create mode 100644 version.json
+PS D:\Flutter Projects\first_app_github\build\web> git branch -M main
+PS D:\Flutter Projects\first_app_github\build\web> git remote add origin https://github.com/KhatriStudio/KhatriStudio.github.io.git
+PS D:\Flutter Projects\first_app_github\build\web> git push -u origin main
+Enumerating objects: 42, done.
+Counting objects: 100% (42/42), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (37/37), done.
+Writing objects: 100% (42/42), 5.46 MiB | 150.00 KiB/s, done.
+Total 42 (delta 6), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/KhatriStudio/KhatriStudio.github.io.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS D:\Flutter Projects\first_app_github\build\web>
